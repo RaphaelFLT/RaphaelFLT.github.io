@@ -1,33 +1,43 @@
 ---
-title: Markdown Mystery Tour
+title: Réseau complet sécurisé
 publishDate: 2020-03-02 00:00:00
 img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: mise en place d'un réseau d'entreprise
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Nous avons mis en place un réseau complet d'une entrepris
 tags:
-  - Design
-  - Dev
-  - User Testing
+  - Network
+  - Packet Tracer
+  - Cybersecurity
+  - Debian 
+  - Windows server
+  - DHCP
+  - DNS
 ---
 
-## Level-two heading
+### Mise en place d'un réseau complet
 
-> Tell me and I forget. Teach me and I remember. Involve me and I learn.
+##### Objectifs du projets  
 
-Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+#### 1. Maquettage du réseau 
+- Création d'un plan d'adressage IP et de routage avec segmentation VLAN pour les différents services.
+- Simulation du réseau avec Packet Tracer et mise en œuvre d'une maquette sur un hyperviseur.
+- Documentation détaillée pour reproduire la configuration.
 
-Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel quam elementum pulvinar etiam non.
+####
+ Sous-projets techniques :
+- Controleur de domaine :
+  - Déploiement d'un serveur Windows Server 2022 avec Active Directory, DNS, DHCP.
+  - Mise en place des stratégies de groupe (GPO) pour la gestion des utilisateurs et des droits.
+  - Création de scripts PowerShell pour la gestion des utilisateurs.
 
-### Level-three heading
+- Sécurité et VPN :
+  - Installation d'un pare-feu avec configuration des règles de filtrage.
+  - Mise en place d'une DMZ pour les services web et configuration d'accès VPN sécurisé.
 
-Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl pretium fusce.
+##### Phase 1 : Maquettage
 
-### Level-three heading
-
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
-
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Mise en place d'une maquette fonctionnel du futur réseau de l'entreprise répondant a ses besoins
 
 #### Level-four heading
 

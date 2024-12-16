@@ -1,8 +1,12 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
+import icon from 'astro-icon';
+
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://RaphaelFLT-Portfolio.github.io',
-    //base: 'my-repo',
-  })
+  //base: 'my-repo',
+  site: 'https://RaphaelFLT.github.io',
+
+  integrations: [icon()]
+})
