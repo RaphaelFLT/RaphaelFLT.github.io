@@ -18,8 +18,18 @@ La veille technologique est une activité qui emploie des techniques d'acquisiti
 Elle permet de voir les nouveautés technologiques, les inventions et problèmes de sécurité ou plus largement les nouveautés d’un secteur concerné afin d’être le meilleur dans son domaine. Mais d'abord, 
 
 ---
+Un petite table des matières ? 
 
-### Qu'est-ce que le cloud computing ? 
+- Qu'est-ce que le cloud computing ?
+  - Saas
+  - Paas
+  - Iaas
+
+- Les avantages et les inconveniants du cloud computing
+
+- La tendance générale
+
+#### Qu'est-ce que le cloud computing ? 
 
 D'après la [CNIL](https://www.cnil.fr/fr/definition/cloud-computing), le cloud computing (en français, « informatique dans les nuages ») fait référence à l’utilisation de la mémoire et des capacités de calcul des ordinateurs et des serveurs répartis dans le monde entier et liés par un réseau. Les applications et les données ne se trouvent plus sur un ordinateur déterminé mais dans un nuage (cloud) composé de nombreux serveurs distants interconnectés.
 
@@ -81,3 +91,7 @@ L’IaaS fournit des ressources informatiques virtualisées sur demande, comme d
 - Dépendance au réseau : Une connexion Internet stable et rapide est indispensable.
 - Coûts cachés : Les frais d’utilisation peuvent s’accumuler avec le temps, notamment en cas de mauvaise gestion des ressources.
 - Manque de contrôle : Les entreprises dépendent du fournisseur pour la disponibilité et la maintenance.
+
+#### la tendance actuelle 
+
+
