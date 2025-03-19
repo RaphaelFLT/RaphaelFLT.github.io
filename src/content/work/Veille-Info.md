@@ -1,97 +1,136 @@
 ---
-title: Veille Informationnel
+title: Veille Informationnelle
 publishDate: 2024-12-9 00:00:00
 img: /assets/cloud_comp.jpg
-img_alt: Une image d'un nuage relié a differents objets
+img_alt: Une image d'un nuage relié à différents objets
 description: |
- Veille informationnelle sur le cloud computing
+  Veille informationnelle sur le cloud computing
 tags:
   - Dev
   - Réseau
-  - future
+  - Future
   - Évolution
 ---
 
----
+# Raphaël FRELAUT - Veille informationnelle
+
+## VEILLE CLOUD COMPUTING
+
 La veille technologique est une activité qui emploie des techniques d'acquisition, de stockage et d'analyse d'informations concernant un produit ou procédé. Il faut donc s'informer continuellement et systématiquement sur un sujet où l'on souhaite faire de la veille technologique.
 
-Elle permet de voir les nouveautés technologiques, les inventions et problèmes de sécurité ou plus largement les nouveautés d’un secteur concerné afin d’être le meilleur dans son domaine. Mais d'abord, 
+Elle permet de voir les nouveautés technologiques, les inventions et problèmes de sécurité ou plus largement les nouveautés d’un secteur concerné afin d’être le meilleur dans son domaine.
+
+Plus objectivement, la veille technologique se caractérise par la création d’axes de surveillance sur un sujet donné. Chacune des informations trouvées sera traitée et fera l'objet d'une synthèse. Ces informations seront trouvées grâce à la mise en place d'outils.
+
+Une veille technologique dans le monde de l’entreprise est un support de décisions stratégiques pour une entreprise car elle permet notamment à celle-ci de :
+
+- réduire les coûts de production
+- avoir un ajout stratégique qui peut permettre de prendre de l’avance
+- innover sans refaire ce qui existe déjà
+
+Les outils pour mettre en œuvre une veille technologique sont les suivants :
+
+- recherches avancées de moteur de recherche
+- Google Alerts
+- réseaux sociaux (Twitter, Facebook)
+- flux RSS et agrégateurs de liens
+- newsletters
+- magazines spécialisés
 
 ---
-Un petite table des matières ? 
 
-- Qu'est-ce que le cloud computing ?
-  - Saas
-  - Paas
-  - Iaas
+## Ma veille technologique
 
-- Les avantages et les inconveniants du cloud computing
+J'ai donc choisi le sujet du **Cloud Computing** pour faire ma veille technologique. Pour mettre en place cette veille technologique, j'ai mis en place les outils suivants :
 
-- La tendance générale
+## 1. Introduction
 
-#### Qu'est-ce que le cloud computing ? 
+### a. Définition du cloud computing
 
-D'après la [CNIL](https://www.cnil.fr/fr/definition/cloud-computing), le cloud computing (en français, « informatique dans les nuages ») fait référence à l’utilisation de la mémoire et des capacités de calcul des ordinateurs et des serveurs répartis dans le monde entier et liés par un réseau. Les applications et les données ne se trouvent plus sur un ordinateur déterminé mais dans un nuage (cloud) composé de nombreux serveurs distants interconnectés.
+D'après la CNIL, le cloud computing (en français, "informatique dans les nuages") fait référence à l’utilisation de la mémoire et des capacités de calcul des ordinateurs et des serveurs répartis dans le monde entier et liés par un réseau. Les applications et les données ne se trouvent plus sur un ordinateur déterminé mais dans un nuage (cloud) composé de nombreux serveurs distants interconnectés.
 
 En d'autres termes, plutôt que de posséder une infrastructure physique, les entreprises et particuliers peuvent louer ces ressources selon leurs besoins.
 
-Le cloud computing peut etre présenté sous différentes offres : 
+### b. Histoire et évolution
 
-##### SaaS, Software as a Service 
+Le cloud computing trouve ses origines dans les années 1950-1970 avec les ordinateurs centraux (mainframes) et le concept de temps partagé pour optimiser les ressources. Dans les années 1990, l'apparition d'Internet a permis de développer le SaaS (Software as a Service), une première forme d'applications accessibles à distance. Le terme cloud computing a été popularisé dans les années 2000 avec l'émergence de géants comme Amazon Web Services (AWS) en 2006, suivis par Microsoft Azure et Google Cloud.
 
-Le SaaS permet aux utilisateurs d’accéder à des applications logicielles via Internet, sans avoir besoin de les installer localement sur leurs ordinateurs. Ces services sont souvent accessibles par abonnement.
-- exemples : 
-  - gmail
-  - Microsoft 365
+### c. Importance et enjeux du cloud computing dans les entreprises
 
-Caracteristiques : 
-- Maintenance et les mise a jours sont prise en charge par le fournisseur 
-- Accès multiplateforme et donnés centralisé sur le serveur et non le poste client
-- Cout initial plus faible basé sur le nombre d'utilisateurs
+Le cloud computing est un levier stratégique pour les entreprises, offrant flexibilité, réduction des coûts, et innovation. Il permet d’adapter les ressources en temps réel, d’améliorer la collaboration grâce à l’accessibilité des données et d’accélérer le développement de nouvelles solutions. Toutefois, son adoption s’accompagne d’enjeux comme la sécurité des données, la dépendance vis-à-vis des fournisseurs, et la conformité aux réglementations.
 
-##### PaaS, Plateform as a Service 
+## 2. Types de cloud computing
 
- L’expression plateforme en tant que service (PaaS, Platform-as-a-Service) qualifie les services cloud qui offrent un environnement à la demande pour développer, tester, fournir et gérer des applications logicielles. PaaS est conçu pour permettre aux développeurs de créer rapidement des applications web ou mobiles sans avoir à se préoccuper de la configuration ou de la gestion de l’infrastructure de serveurs, de stockage, de réseau et de bases de données nécessaire au développement.
+### a. Les modèles de déploiement
 
- - Exemples : 
-  - Google App Engine 
-  - Heroku
-  - Microsoft Azur App Service 
+- **Cloud Public** : géré par des fournisseurs tiers (ex. AWS, Azure), offre une grande scalabilité et des coûts optimisés, mais pose des enjeux de confidentialité.
+- **Cloud Privé** : dédié à une seule organisation, garantit un contrôle total et une sécurité renforcée, mais implique des coûts élevés.
+- **Cloud Hybride** : combine public et privé, permettant flexibilité et optimisation des ressources.
+- **Cloud Communautaire** : mutualise des infrastructures pour des organisations aux besoins similaires.
 
-Caracteriques :
-- Environement de développement
-- Idéal pour les développeurs souhaitant se concentrer sur le code sans gérer les serveurs.
-- Permet d’intégrer des outils et API tiers.
+### b. Les modèles de services
 
-##### IaaS, Infrastructure as a Service
+- **IaaS (Infrastructure as a Service)** : fournit des ressources matérielles virtualisées comme les serveurs, le stockage et les réseaux.
+- **PaaS (Platform as a Service)** : offre un environnement clé en main pour développer, tester et déployer des applications.
+- **SaaS (Software as a Service)** : met à disposition des applications prêtes à l’emploi via internet.
 
-L’IaaS fournit des ressources informatiques virtualisées sur demande, comme ds serveurs, du stockage, et des réseaux. Ce modèle permet une grande flexibilité pour construire et gérer ses propres systèmes.
+## 3. Les Principaux Acteurs et Solutions Cloud
 
-- Exemples : 
-  - Amazon Web Services (AWS EC2)
-  - Microsoft Azure
-  - Google Compute Engine.
+### a. Les grands fournisseurs mondiaux
 
-- Caracteristiques : 
-  - Contrôle total sur les ressources (serveurs virtuels, systèmes d’exploitation).
-  - Paiement basé sur l’utilisation (pay-as-you-go).
-  - Idéal pour les grandes entreprises ou projets complexes.
+- **Amazon Web Services (AWS)**
+- **Microsoft Azure**
+- **Google Cloud Platform (GCP)**
+- **Alibaba Cloud**
+- **IBM Cloud**
 
+### b. Les solutions alternatives et locales
 
-#### Les avantages et les inconveniants
+- **OVHcloud**
+- **Scaleway**
 
-##### Les avantages : 
+## 4. Les Technologies et Outils liés au Cloud
 
-- Le Coût: Le cloud computing élimine la nécessité d’investir dans du matériel et des logiciels.
-- Accessibilité : Les services cloud sont accessibles depuis n’importe où avec une connexion Internet.
-- Flexibilité : Permet de soutenir des pratiques modernes comme le télétravail.
+### a. Virtualisation et conteneurisation
+### b. Solutions de stockage et de sauvegarde
+### c. Automatisation et infrastructures as Code (IaC)
+### d. Solutions d'intégration continue et de déploiement continu
+### e. Intelligence artificielle et Machine Learning dans le cloud
+### f. Big Data et solutions analytiques Cloud
 
-##### Les inconveniants : 
+## 5. Sécurité et conformité dans le cloud
 
-- Dépendance au réseau : Une connexion Internet stable et rapide est indispensable.
-- Coûts cachés : Les frais d’utilisation peuvent s’accumuler avec le temps, notamment en cas de mauvaise gestion des ressources.
-- Manque de contrôle : Les entreprises dépendent du fournisseur pour la disponibilité et la maintenance.
+### a. Principaux enjeux de la sécurité
+### b. Solutions et outils de sécurité
+### c. Normes et certifications
+### d. Exemples d’incidents et de failles dans le cloud
 
-#### la tendance actuelle 
+## 6. Avantages et limites du cloud computing
 
+### a. Avantages
+### b. Les limites et défis
 
+## 7. Tendances et innovation dans le cloud
+
+### a. Cloud hybride et multi-cloud
+### b. Edge computing
+### c. Serverless computing
+### d. IA dans le cloud
+### e. Le green cloud
+### f. Internet of Things (IoT)
+### g. Quantum Computing (Calcul quantique)
+
+## 8. Régulation et la souveraineté des données
+
+### a. Réglementations internationales et locales
+### b. Souveraineté numérique et cloud souverain
+### c. Enjeux géopolitiques et économiques du cloud
+
+## 9. Conclusion et perspectives
+
+### a. L’avenir du cloud computing
+### b. Synthèse des points clés
+
+## 10. Sources
+
+[📄 Télécharger le PDF pour le decouvrir ](/assets/Veilleinformationnelle.pdf)
