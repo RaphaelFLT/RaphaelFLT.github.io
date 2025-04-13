@@ -4,7 +4,7 @@ publishDate: 2020-03-02 00:00:00
 img: /assets/PTracer.png
 img_alt: mise en place d'un réseau d'entreprise
 description: |
-  Nous avons mis en place un réseau complet d'une entrepris
+  Nous avons mis en place un réseau complet d'une entreprise
 tags:
   - Network
   - Packet Tracer
