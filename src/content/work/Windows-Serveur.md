@@ -1,6 +1,6 @@
 ---
 title: Contrôleur de domaine WS2022
-publishDate: 2025-04-13 00:00:00
+publishDate: 2024-01-08 00:00:00
 img: /assets/WindowsServeur.png
 img_alt: mise en place d'un contrôleur de domaine
 description: |
