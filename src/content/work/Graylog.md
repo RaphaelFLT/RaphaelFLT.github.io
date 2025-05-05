@@ -14,3 +14,6 @@ tags:
 
 Au cours du deuxième semestre, il m'a été chargé de mettre en place un serveur GRAYLOG afin de récuperer les logs de toutes les machines du réseau. 
 
+[📄 Ma doc De configuration](/assets/livrables/GL-config.pdf)
+
+[📄 Ma doc d'installation](/assets/livrables/GL-install.pdf)
