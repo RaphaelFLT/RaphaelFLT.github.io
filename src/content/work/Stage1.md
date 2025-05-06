@@ -5,12 +5,12 @@ img: /assets/logo-eau-17.png
 img_alt: stage de première année chez EAU17  
 description: Stages et projets au SI d'EAU17  
 tags:  
-  - Entreprise  
-  - Debian  
-  - Cybersécurité  
-  - Supervision  
-  - Chef de projet  
+  - C1
+  - C2
+  - C4
+  - C5
 ---
+
 
 ### Entreprise : 
 
@@ -38,7 +38,7 @@ J’ai identifié les parties prenantes, participé à des réunions avec les ac
 
 Ce projet a été conduit selon la méthodologie **PRINCE2**, utilisée dans l’entreprise.
 
-📄 [Ma note de cadrage](/assets/livrables/notedecadrage.pdf)
+📄 [Ma note de cadrage](/assets/livrables/Notedecadrage.pdf)
 
 ---
 
