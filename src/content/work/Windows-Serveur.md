@@ -12,6 +12,32 @@ tags:
   - GPO
   - Gestion des accès
 ---
+#### Sous-projet A – Mise en place du contrôleur de domaine
+
+Objectifs
+- Mettre en place le contrôleur de domaine Windows 2022 Server (+DNS +DHCP)
+- Mettre en place un espace de stockage de données (espaces privés et partagés)
+et mettre en place les droits sachant que les membres d'un même service ont leur espace
+personnel privé auquel personne ne peut accéder et des espaces de stockage partagés en
+lecture seule sur lesquels uniquement le(s) responsable(s) ont le droit d'écriture.
+-  Mettre ne place les GPO suivantes :
+    - une GPO pour éteindre tous les postes à partir de 20h
+    - une GPO créant un lecteur réseau pour les informaticiens
+    - une GPO pour mettre en veille les PC de la RH/Compta/direction après 2 minutes
+d'inactivité
+- Écrire un script PowerShell qui permet d'ajouter automatiquement un utilisateur ou de le
+supprimer. Les caractéristiques de l'utilisateur seront passées soit en paramètre soit par
+l'intermédiaire d'un fichier
+- Mettre en place une sauvegarde de l'AD et sa procédure de restauration en cas de
+problème.
+Attendus
+- Un document exposant l'organisation du contrôleur de domaine (choix de login, choix de
+stratégie de sécurité de mot de passe, organisation des UO, Groupes, liste des
+utilisateurs...).
+- Un document décrivant l'organisation de l'espace de fichiers (arborescences, partages).
+- Le script de gestion des utilisateurs.
+
+--- 
 
 ### 🖥️ Mise en place d’un contrôleur de domaine
 

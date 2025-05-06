@@ -12,6 +12,25 @@ tags:
   - Cybeséurité
 ---
 
+J'ai effectué mon stage du 20 Janvier au 21 fevrier 2025 
+
+### Entreprise
+
+La RESE est un service public local chargé de la production et de la distribution d’eau potable, ainsi que de l’assainissement collectif des eaux usées en Charente-Maritime. Elle dessert plus de 300 000 usagers pour le compte des collectivités adhérentes au syndicat Eau 17, qui ont opté pour une gestion en régie publique .
+Wikipédia, l'encyclopédie libre
+
+Ses missions incluent :
+- La production et la distribution d’eau potable.
+- La collecte et le traitement des eaux usées.
+- L’entretien et la modernisation des réseaux.
+- La gestion des infrastructures et la facturation des abonnés .
+
+Fondée en 1954, la RESE est basée à Saintes, en Nouvelle-Aquitaine, et emploie entre 200 et 500 personnes .
+
+Le service informatique de la RESE est crucial pour piloter les réseaux d’eau et d’assainissement via des outils de supervision et de télégestion.
+Il développe en interne des solutions logicielles adaptées et sécurisées pour optimiser les interventions et la relation client.
+Il joue un rôle stratégique dans la modernisation, la performance et la continuité des services publics gérés par la régie.
+
 ### Ajout d'un serveur d'authentification RADIUS
 
 Lors de mon second stage, j'ai été missionné pour mettre en place un serveur d'authentification RADIUS sous Windows Server 2022.  
