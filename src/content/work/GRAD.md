@@ -47,6 +47,7 @@ _Travaux réalisés_ :
 
 En l'état, le site web permet la création, la modification et la suppréssion d'utilisateurs avec une base de données
 
+Le code source du projet peut etre retrouvé via mon repo Github [__ICI__](https://github.com/RaphaelFLT/Soci-t-GRAD)
 ##### Compétences mobilisés : 
 
 - Developper la présence en ligne de l'entreprise : 
@@ -54,3 +55,4 @@ En l'état, le site web permet la création, la modification et la suppréssion 
 - Travailler en mode projet 
     - Analyser les objectifs et les modalités d’organisation d’un projet
     - Planifier les activités
+
