@@ -53,29 +53,235 @@ import Icon from './Icon.astro';
 	</div>
 </section>
 
-<section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Administration des infrastructures</h2>
-		<li>Installation, configuration, gestion de serveurs </li>
-		<li>Déploiement, supervision des équipements réseau </li>
-		<li>Gestion des droits d'accès, des comptes utilisateurs et des groupes</li>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="security" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Sécurité des infrastructures</h2>
-		<li>Mise en place de solutions de sécurisation</li>
-		<li>Surveillance et prévention des failles et des cyberattaques.</li>
-		<li>Application des bonnes pratiques</li>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="support" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Support et maintenance</h2>
-		<li>Suivi et amélioration des performances</li>
-		<li>Diagnostic et résolution des incidents matériels et logiciels.</li>
-		<li>Assistance aux utilisateurs et rédaction de documentations techniques.</li>
-	</div>
+<section class="skills-container">
+  <div class="skills-grid">
+    <!-- Compétence 1 -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-server">
+          <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
+          <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
+          <line x1="6" x2="6" y1="6" y2="6"></line>
+          <line x1="6" x2="6" y1="18" y2="18"></line>
+        </svg>
+      </div>
+      <h3>Gestion du patrimoine informatique</h3>
+      <ul class="skill-list">
+        <li>Recensement et maintenance des ressources numériques</li>
+        <li>Configuration des niveaux d'habilitation et des accès</li>
+        <li>Gestion des sauvegardes et de la continuité de service</li>
+      </ul>
+    </div>
+    
+    <!-- Compétence 2 -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hammer">
+          <path d="m15 12-8.5 8.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L12 9"></path>
+          <path d="M17.64 15 22 10.64"></path>
+          <path d="m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 0 0-3.94-1.64H9l.92.82A6.18 6.18 0 0 1 12 8.4v1.56l2 2h2.47l2.26 1.91"></path>
+        </svg>
+      </div>
+      <h3>Support et assistance</h3>
+      <ul class="skill-list">
+        <li>Traitement des incidents réseau et systèmes</li>
+        <li>Diagnostic et résolution des problèmes applicatifs</li>
+        <li>Gestion et suivi des demandes d'assistance</li>
+      </ul>
+    </div>
+    
+    <!-- Compétence 3 -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          <path d="M2 12h20"></path>
+        </svg>
+      </div>
+      <h3>Présence en ligne</h3>
+      <ul class="skill-list">
+        <li>Valorisation de l'image numérique de l'organisation</li>
+        <li>Référencement et visibilité des services en ligne</li>
+        <li>Développement et évolution des sites web</li>
+      </ul>
+    </div>
+    
+    <!-- Compétence 4 -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gantt-chart">
+          <path d="M8 6h10"></path>
+          <path d="M6 12h9"></path>
+          <path d="M11 18h7"></path>
+          <path d="M6 6v12"></path>
+          <path d="M18 6v12"></path>
+        </svg>
+      </div>
+      <h3>Gestion de projet</h3>
+      <ul class="skill-list">
+        <li>Analyse et planification des activités</li>
+        <li>Suivi des indicateurs et gestion des écarts</li>
+        <li>Organisation et coordination des ressources</li>
+      </ul>
+    </div>
+    
+    <!-- Compétence 5 -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box">
+          <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path>
+          <path d="m3.3 7 8.7 5 8.7-5"></path>
+          <path d="M12 22V12"></path>
+        </svg>
+      </div>
+      <h3>Déploiement de services</h3>
+      <ul class="skill-list">
+        <li><a href="https://raphaelflt.github.io/work/stage2/#phase-de-test" class="skill-link">Tests d'intégration et d'acceptation</a></li>
+        <li>Installation et configuration de solutions</li>
+        <li>Formation et accompagnement des utilisateurs</li>
+      </ul>
+    </div>
+    
+    <!-- Compétence 6 -->
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap">
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+          <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+        </svg>
+      </div>
+      <h3>Développement professionnel</h3>
+      <ul class="skill-list">
+        <li><a href="https://raphaelflt.github.io/work/veille-info/" class="skill-link">Mise en place d'une veille technologique</a></li>
+        <li><a href="https://www.linkedin.com/in/rapha%C3%ABl-frelaut-9b7001235/" class="skill-link">Gestion de l'identité professionnelle</a></li>
+        <li><a href="https://raphaelflt.github.io/work/veille-info/" class="skill-link">Évolution continue des compétences</a></li>
+      </ul>
+    </div>
+  </div>
 </section>
+
+<style>
+  .skills-container {
+    padding: 2rem 0;
+    width: 100%;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .skill-card {
+    background: linear-gradient(145deg, rgba(255,255,255,0.05), rgba(255,255,255,0.1));
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    border-color: var(--accent-regular);
+  }
+  
+  .skill-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--accent-regular), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .skill-card:hover::before {
+    opacity: 1;
+  }
+  
+  .skill-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--accent-regular), var(--accent-dark));
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .skill-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: var(--accent-light);
+  }
+  
+  .skill-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skill-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.4;
+  }
+  
+  .skill-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--accent-regular);
+  }
+  
+  .skill-link {
+    color: var(--accent-light);
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-link:hover {
+    color: var(--accent-regular);
+  }
+  
+  .skill-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--accent-regular);
+    transition: width 0.3s ease;
+  }
+  
+  .skill-link:hover::after {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
 
 <style>
 	:root {

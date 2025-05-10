@@ -61,6 +61,32 @@ configurations pour maintenir la sécurité de l'infrastructure
 
 --- 
 
+L'une des permière mission a été de selectionner quelles machines allait devoir m'envoyer leurs logs. Les logs des machines suivantes on été jugé plus importants : 
+- __Controleur de domaine__ WS2022.dmh.btp
+- __IPS__ suricata.dmh.btp
+- __PRTG__ Supervision.dmh.btp
+- __Routeur_ PfSense.dmh.btp
+
+Une fois les logs receullis, il a fallut se poser la question des alertes à metre en place. 
+La sécurité etant primordial, des alertes relatives aux utilisateurs a haut droits on été misent en place tel que : 
+ - Alerte lors de la connexion par RDP d'un Admninistrateur
+    - nom d'utilisateur 
+    - IP de connexion
+    - horraires de connexion 
+ - Alerte lors de la connexion par VPN 
+    - nom d'utilisateur 
+    - IP de connexion
+    - horraires de connexion 
+ - Alerte lors de la connexion par SSH 
+     - nom d'utilisateur 
+     - IP de connexion
+     - horraires de connexion
+
+Pour des raisons pratiques, les notifications sont envoyés vers un serveur Discord spécialement créé pour le Projet. 
+
+![](/assets/livrables/notif.png) 
+![](/assets/livrables/notif2.png) 
+
 [📄 Ma doc d'installation](/assets/livrables/GL-install.pdf)
 
 [📄 Ma doc De configuration](/assets/livrables/GL-config.pdf)
