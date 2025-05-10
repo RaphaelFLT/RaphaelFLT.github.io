@@ -64,6 +64,23 @@ Une fois la configuration terminée, j'ai débuté la phase de tests. Plusieurs 
 
 ---
 
+#### Le parcours d'un ticket à la RESE
+
+
+Pour toute demande d’assistance, un ticket doit impérativement être envoyé par e-mail à l’adresse dédiée au support. Cette procédure est essentielle pour assurer un bon suivi et établir des statistiques internes à l’entreprise.
+
+Lorsqu’un ticket est reçu, une alerte sonore retentit dans le bureau du service informatique. Un technicien le prend en charge ou le transmet à un administrateur si la demande dépasse son périmètre d’intervention. Si nécessaire, un appel téléphonique peut être sollicité afin d’obtenir des informations complémentaires.
+
+Le technicien classe ensuite le ticket en fonction du service concerné et de sa criticité (impact sur la capacité à travailler). Une grille d’évaluation est complétée pour définir un niveau de priorité, en s’appuyant sur un référentiel interne. Il arrive que certains tickets puissent être résolus sans intervention technique : ils sont alors catégorisés comme des tickets "ICC" (Interface Chaise Clavier). Si un nombre important d’ICC est constaté, des actions de formation peuvent être envisagées afin de réduire ces sollicitations.
+
+![](/assets/priorite.png)
+
+Les incidents sont traités dans les plus brefs délais, selon la disponibilité des techniciens et des administrateurs.
+
+Je n’ai pas personnellement suivi de ticket du début à la fin, mais j’ai apporté mon aide aux équipes lors du remplacement de matériel tel que des écrans, des clients légers ou divers accessoires.
+
+> Chaque équipement est référencé dans une base de données dédiée à la gestion des actifs.
+
 #### Résultat 
 
 À la fin de mon stage, la RESE disposait :
