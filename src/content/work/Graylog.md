@@ -61,6 +61,8 @@ configurations pour maintenir la sécurité de l'infrastructure
 
 --- 
 
+##### Choix des logs 
+
 L'une des permière mission a été de selectionner quelles machines allait devoir m'envoyer leurs logs. Les logs des machines suivantes on été jugé plus importants : 
 - __Controleur de domaine__ WS2022.dmh.btp
 - __IPS__ suricata.dmh.btp
