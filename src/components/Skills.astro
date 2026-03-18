@@ -5,47 +5,61 @@ import Icon from './Icon.astro';
 <section class="box parcours">
 	<div class="stack gap-2 lg:gap-4">
 		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Parcours éducatif</h2>
+		<h2>Formation</h2>
 		<ul class="timeline">
 			<li class="timeline-item">
-				<div class="timeline-year">2023-2025</div>
+				<div class="timeline-year">2026 – 2029</div>
 				<div class="timeline-content">
 					<div class="timeline-header">
-						<strong>BTS SIO SISR</strong>
-						<p>Solutions d'infrastructure, systèmes et réseaux</p>
-						<span class="status completed">Obtenu</span>
+						<strong>Licence 3 puis Master – MIAGE</strong>
+						<p>Méthodes Informatiques Appliquées à la Gestion des Entreprises</p>
+						<span class="status future">Projet futur</span>
 					</div>
 					<div class="location">
 						<Icon icon="rocket-launch" color="var(--accent-regular)" size="1.2rem" />
-						<p>Barbezieux</p>
+						<p>Université de Bordeaux – Talence</p>
 					</div>
 				</div>
 			</li>
 			<li class="timeline-item">
-				<div class="timeline-year">2021-2022</div>
+				<div class="timeline-year">2025 – 2026</div>
 				<div class="timeline-content">
 					<div class="timeline-header">
-						<strong>BTS SIO SLAM</strong>
-						<p>Solutions Logicielles et Applications Métier</p>
+						<strong>Licence 3 Pro – ADSILLH</strong>
+						<p>Administration et Développement de Systèmes Informatiques à base de Logiciels Libres et Hybrides</p>
+						<span class="status in-progress">En cours</span>
+					</div>
+					<div class="location">
+						<Icon icon="rocket-launch" color="var(--accent-regular)" size="1.2rem" />
+						<p>Université de Bordeaux – Talence</p>
+					</div>
+				</div>
+			</li>
+			<li class="timeline-item">
+				<div class="timeline-year">2023 – 2025</div>
+				<div class="timeline-content">
+					<div class="timeline-header">
+						<strong>BTS SIO – option SISR</strong>
+						<p>Solutions d'Infrastructure, Systèmes et Réseaux</p>
+						<span class="status completed">Obtenu</span>
+					</div>
+					<div class="location">
+						<Icon icon="rocket-launch" color="var(--accent-regular)" size="1.2rem" />
+						<p>Lycée Élie Vinet – Barbezieux</p>
+					</div>
+				</div>
+			</li>
+			<li class="timeline-item">
+				<div class="timeline-year">2021 – 2022</div>
+				<div class="timeline-content">
+					<div class="timeline-header">
+						<strong>BTS SIO – option SLAM</strong>
+						<p>Solutions Logicielles et Applications Métiers</p>
 						<span class="status interrupted">Interrompu</span>
 					</div>
 					<div class="location">
 						<Icon icon="rocket-launch" color="var(--accent-regular)" size="1.2rem" />
-						<p>Rochefort</p>
-					</div>
-				</div>
-			</li>
-			<li class="timeline-item">
-				<div class="timeline-year">2021</div>
-				<div class="timeline-content">
-					<div class="timeline-header">
-						<strong>BAC STI2D</strong>
-						<p>Systèmes Informatique et Numérique</p>
-						<span class="status completed">Obtenu</span>
-					</div>
-					<div class="location">
-						<Icon icon="rocket-launch" color="var(--accent-regular)" size="1.2rem" />
-						<p>Angoulême</p>
+						<p>Lycée Merleau-Ponty – Rochefort</p>
 					</div>
 				</div>
 			</li>
@@ -55,111 +69,103 @@ import Icon from './Icon.astro';
 
 <section class="skills-container">
   <div class="skills-grid">
-    <!-- Compétence 1 -->
+
     <div class="skill-card">
       <div class="skill-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-server">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
           <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
           <line x1="6" x2="6" y1="6" y2="6"></line>
           <line x1="6" x2="6" y1="18" y2="18"></line>
         </svg>
       </div>
-      <h3>Gestion du patrimoine informatique</h3>
+      <h3>Administration systèmes</h3>
       <ul class="skill-list">
-        <li><a href="https://raphaelflt.github.io/work/graylog#choix-des-logs" class="skill-link">Recensement et maintenance des ressources numériques</a></li>
-        <li><a href="https://raphaelflt.github.io/work/windows-serveur" class="skill-link">Configuration des niveaux d'habilitation et des accès</a></li>
-        <li><a href="https://raphaelflt.github.io/work/windows-serveur" class="skill-link">Gestion des sauvegardes et de la continuité de service</a></li>
+        <li>Gestion avancée des systèmes Linux et Windows</li>
+        <li><a href="https://raphaelflt.github.io/work/windows-serveur" class="skill-link">Active Directory et gestion des droits d'accès</a></li>
+        <li>Automatisation ANSIBLE et scripts SHELL</li>
       </ul>
     </div>
-    
-    <!-- Compétence 2 -->
+
     <div class="skill-card">
       <div class="skill-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hammer">
-          <path d="m15 12-8.5 8.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L12 9"></path>
-          <path d="M17.64 15 22 10.64"></path>
-          <path d="m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 0 0-3.94-1.64H9l.92.82A6.18 6.18 0 0 1 12 8.4v1.56l2 2h2.47l2.26 1.91"></path>
-        </svg>
-      </div>
-      <h3>Support et assistance</h3>
-      <ul class="skill-list">
-        <li><a href="https://raphaelflt.github.io/work/stage2/#Le-parcours-d'un ticket-à-la-RESE" class="skill-link">Traitement des incidents réseau et systèmes</a></li>
-        <li>Diagnostic et résolution des problèmes applicatifs</li>
-        <li><a href="https://raphaelflt.github.io/work/stage2/#Le-parcours-d'un ticket-à-la-RESE" class="skill-link">Gestion et suivi des demandes d'assistance</a></li>
-      </ul>
-    </div>
-    
-    <!-- Compétence 3 -->
-    <div class="skill-card">
-      <div class="skill-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="12" cy="12" r="10"></circle>
           <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
           <path d="M2 12h20"></path>
         </svg>
       </div>
-      <h3>Présence en ligne</h3>
+      <h3>Réseaux & sécurité</h3>
       <ul class="skill-list">
-        <li>Valorisation de l'image numérique de l'organisation</li>
-        <li>Référencement et visibilité des services en ligne</li>
-        <li><a href="https://raphaelflt.github.io/work/grad/" class="skill-link">Développement et évolution des sites web</a></li>
+        <li>Configuration de switchs Cisco/HP, routeurs et bornes WiFi</li>
+        <li>Sécurisation : firewall, filtrage, VLAN, ACL</li>
+        <li><a href="https://raphaelflt.github.io/work/stage2/" class="skill-link">Mise en place de serveur RADIUS 802.1X</a></li>
       </ul>
     </div>
-    
-    <!-- Compétence 4 -->
+
     <div class="skill-card">
       <div class="skill-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gantt-chart">
-          <path d="M8 6h10"></path>
-          <path d="M6 12h9"></path>
-          <path d="M11 18h7"></path>
-          <path d="M6 6v12"></path>
-          <path d="M18 6v12"></path>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 12h10M12 2v10M12 12l7 7M12 12l-7 7"></path>
+        </svg>
+      </div>
+      <h3>Supervision & monitoring</h3>
+      <ul class="skill-list">
+        <li><a href="https://raphaelflt.github.io/work/graylog" class="skill-link">Centralisation des logs avec Graylog</a></li>
+        <li>Supervision avec Nagios, Centreon, Grafana</li>
+        <li>Migration NAGIOS vers ICINGA2</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m15 12-8.5 8.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L12 9"></path>
+          <path d="M17.64 15 22 10.64"></path>
+          <path d="m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 0 0-3.94-1.64H9l.92.82A6.18 6.18 0 0 1 12 8.4v1.56l2 2h2.47l2.26 1.91"></path>
+        </svg>
+      </div>
+      <h3>Support & assistance</h3>
+      <ul class="skill-list">
+        <li><a href="https://raphaelflt.github.io/work/stage2/#Le-parcours-d'un ticket-à-la-RESE" class="skill-link">Traitement des incidents réseau et systèmes</a></li>
+        <li><a href="https://raphaelflt.github.io/work/glpi/" class="skill-link">Gestion des tickets avec GLPI</a></li>
+        <li>Support technique et assistance utilisateurs</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 6h10"></path><path d="M6 12h9"></path><path d="M11 18h7"></path>
+          <path d="M6 6v12"></path><path d="M18 6v12"></path>
         </svg>
       </div>
       <h3>Gestion de projet</h3>
       <ul class="skill-list">
-        <li><a href="https://raphaelflt.github.io/work/glpi/" class="skill-link">Analyse et planification des activités</a></li>
-        <li><a href="https://raphaelflt.github.io/work/stage1/" class="skill-link">Suivi des indicateurs et gestion des écarts</a></li>
-        <li><a href="https://raphaelflt.github.io/work/stage1/" class="skill-link">Organisation et coordination des ressources</a></li>
+        <li><a href="https://raphaelflt.github.io/work/stage1/" class="skill-link">Chef de projet – installation réseau LAB (EAU17)</a></li>
+        <li>Mode projet : planification, coordination, compte rendu</li>
+        <li>Participation active dans un projet anglophone</li>
       </ul>
     </div>
-    
-    <!-- Compétence 5 -->
+
     <div class="skill-card">
       <div class="skill-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box">
-          <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path>
-          <path d="m3.3 7 8.7 5 8.7-5"></path>
-          <path d="M12 22V12"></path>
-        </svg>
-      </div>
-      <h3>Déploiement de services</h3>
-      <ul class="skill-list">
-        <li><a href="https://raphaelflt.github.io/work/stage2/#phase-de-test" class="skill-link">Tests d'intégration et d'acceptation</a></li>
-        <li><a href="https://raphaelflt.github.io/work/" class="skill-link">Installation et configuration de solutions</a></li>
-        <li>Formation et accompagnement des utilisateurs</li>
-      </ul>
-    </div>
-    
-    <!-- Compétence 6 -->
-    <div class="skill-card">
-      <div class="skill-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
           <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
         </svg>
       </div>
       <h3>Développement professionnel</h3>
       <ul class="skill-list">
-        <li><a href="https://raphaelflt.github.io/work/veille-info/" class="skill-link">Mise en place d'une veille technologique</a></li>
+        <li><a href="https://raphaelflt.github.io/work/veille-info/" class="skill-link">Veille technologique active</a></li>
+        <li>Cambridge – Anglais C1 ou supérieur</li>
         <li><a href="https://www.linkedin.com/in/rapha%C3%ABl-frelaut-9b7001235/" class="skill-link">Gestion de l'identité professionnelle</a></li>
-        <li><a href="https://raphaelflt.github.io/work/veille-info/" class="skill-link">Évolution continue des compétences</a></li>
       </ul>
     </div>
+
   </div>
 </section>
+
 
 <style>
   .skills-container {
@@ -424,6 +430,15 @@ import Icon from './Icon.astro';
 		background-color: var(--accent-regular);
 		box-shadow: 0 0 0 2px rgba(var(--accent-light-rgb), 0.3);
 		animation: pulse 2s infinite;
+	}
+
+	.status.future {
+    background-color: rgba(100, 150, 255, 0.15);
+    color: rgb(100, 150, 255);
+	}
+
+	.status.future:before {
+		background-color: rgb(100, 150, 255);
 	}
 	
 	.status.interrupted {
